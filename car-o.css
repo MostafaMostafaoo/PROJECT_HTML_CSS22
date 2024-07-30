@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 60px;
+}
+
+
+.car{
+    
+    padding: 20px 200px;
+   
+}
+
+.car a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(21, 6, 36);
+    margin: 30px ;
+}
+
+
+.car a:hover{
+    color: blue;
+}
+
+
+.car-1{
+    padding: 20px ;
+
+}
+
+.car-1 a{
+    text-decoration: none;
+    margin: 7px;
+}
+
+.car-1 a:hover{
+
+    color: blue;
+
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.325);
+
+    /* opacity: .10; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.car-2{
+    margin: 0 150px;
+    
+}
+
+
+.car-3{
+    padding: 20px ;
+ 
+}
+
+.car-3 a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    
+    
+}
+
+.car-3 a:hover{
+    background-color: brown;
+    padding: 20px;
+    width: 300px;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 50px 290px;
+    height: 1400px;
+   
+}
+
+
+.keep-1 h1{
+
+    text-align: center;
+    display: flex;
+    margin: 80px 300px;
+    font-size: 40px;
+  
+    
+}
+
+.keep-1 img{
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+
+}
+.keep-1 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+
+}
+
+.keep-1 h3{
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.383);
+}
+
+
+.keep-1 span{
+    display: flex;
+    margin-top: -20px;
+    
+}
+
+
+.keep-1 p{
+    line-height: 25px;
+    width: 550px;
+    margin: 20px 0;
+}
+
+.keep-1 a{
+    color: white;
+}
+
+.keep-1 a:hover{
+    color: blueviolet;
+}
+
+.keep-f a{
+
+    display: flex;
+    margin: 0 300px;
+    background-color: blueviolet;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+}
+.keep-f a:hover{
+    background-color: brown;
+}
+
+
+hr{
+    margin-bottom: 40px;
+    width: 80%;
+    
+}
+
+.keep-2 h2{
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.383);
+
+}
+
+.keep-3 a{
+    margin: 0 300px;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+
+.keep-3 a:hover{
+    background-color: brown;
+}
+
+
+.der-1{
+    margin: 180px -50px;
+}
+
+.div-1 h2{
+    font-size: 35px;
+}
+
+.div-1 img{
+
+}
+
+.div-1 h3{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.456);
+}
+
+.div-1 span{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.div-2 h2{
+    padding: 0 20px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: white;
+
+}
+
+.div-2 img{
+    padding: 0 20px;
+    /* margin: 20px 0; */
+    margin: px 0;
+}
+
+.div-2 h3{
+    font-size: 25px ;
+    color: rgba(255, 255, 255, 0.378);
+}
+
+.div-2 p{
+    font-size: 15px;
+    margin-top: -10px;
+    display: flex;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-w i{
+    margin: 20px 0;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.main-e{
+   background-color: aliceblue;
+   height: 80px;
+}
+
+.main-e p{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-w i:hover{
+    /* background-color: rgb(228, 144, 35); */
+   color: rgba(248, 248, 255, 0.547);
+}
